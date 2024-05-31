@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    width: 100%;
+    height: 550px;
+    top: 95px;
+    background-image: url('pexels-taryn-elliott-4099238.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+    
+
+}
+
+.header_image {
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.header_image p {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    
+
+}
+
+.hr {
+    background-color: black;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10px;
+   
+}
+
+.classbox {
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.classbox1,
+.classbox2,
+.classbox3 {
+    /* background-color: blue; */
+    height: 90%;
+    width: 25%;
+    margin-top: 30px;
+   
+
+}
+
+.classbox1 img,
+.classbox2 img,
+.classbox3 img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10%;
+    border: 2px solid white;
+   
+}
+
+
+
+.classbox1 span,
+.classbox2 span,
+.classbox3 span {
+    background-color: rgb(204, 204, 24);
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 80%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.main_container2 {
+    /* background-color: white; */
+    width: 100%;
+    height: 600px;
+    background-image: url('bg\ 1.jpg');
+  
+}
+
+.main_container2image {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.main_container2image p {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.hr1 {
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.trainingpartnerbox {
+    /* background-color: red; */
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trainingpartnerbox1,
+.trainingpartnerbox2,
+.trainingpartnerbox3 {
+    /* background-color: blue; */
+    height: 70%;
+    width: 25%;
+    margin-top: 80px;
+
+}
+
+.trainingpartnerbox1 img,
+.trainingpartnerbox2 img,
+.trainingpartnerbox3 img {
+    width: 100%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.trainingpartnerbox1 p,
+.trainingpartnerbox2 p,
+.trainingpartnerbox3 p {
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: larger;
+    padding: 6px;
+    width: 100%;
+    margin-top: 15px;
+    /* margin-left: 23%; */
+    border-radius: 8px;
+}
+
+/* apparel */
+
+
+.apparel {
+    
+    width: 100%;
+    height: 600px;
+    background-image: url('keagan-henman-xPJYL0l5Ii8-unsplash.jpg');
+  background-size: 100%;
+
+   
+ 
+}
+
+.apparelimage {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.apparelimage p {
+    font-size: 40px;
+    color: black;
+   
+    font-weight: bold;
+}
+
+.hr2 {
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 10px;
+    background-color:black;
+   
+}
+
+.apparelbox {
+    /* background-color: red; */
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.apparelbox1,
+.apparelbox2,
+.apparelbox3 {
+    /* background-color: blue; */
+    height: 70%;
+    width: 25%;
+    margin-top: 80px;
+
+}
+
+.apparelbox1 img,
+.apparelbox2 img,
+.apparelbox3 img {
+    width: 100%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.apparelbox1 p,
+.apparelbox2 p,
+.apparelbox3 p {
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: larger;
+    padding: 6px;
+    width: 100%;
+    margin-top: 15px;
+    /* margin-left: 23%; */
+    border-radius: 8px;
+}
+

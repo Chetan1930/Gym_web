@@ -1,0 +1,978 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body html {
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: #524D4D;
+    position: relative;
+    z-index: 2;
+
+}
+
+.nav_container img{
+    margin-top: 30px;
+    width: 180px;
+   
+}
+
+
+.nav_li{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   margin-left: 490px;
+   font-family: poppins;
+}
+.nav_li a{
+    color: #fff;
+}
+
+.nav_btn{
+width: 106px;
+height: 45px;
+top: 22px;
+border-radius: 10px;
+background: #FFA500;
+font-family: poppins;
+font-size: 20px;
+font-weight: 200;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+margin-right: 40px;
+border: 1px solid;
+}
+
+.nav_btn_alink{
+    color: #000;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 42px;
+
+
+
+}
+
+   
+
+.header_image{
+width: 100%;
+height: 550px;
+top: 95px;
+}
+.box{
+    margin-top: -690px;
+    margin-left: 10px;
+    width: 500px;
+    height: 380px;
+    top: 246px;
+    left: 72px;
+    padding-left: 50px;
+    padding-top: 30px;
+    border-radius: 20px;
+    background-color: rgba(39, 22, 4, 0.42);
+    position: relative;
+    z-index: 4;
+}
+
+.header_content h1{
+color:#fff;
+font-family: Radio Canada;
+font-size: 90px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+
+
+}
+
+#img_vector{
+    position: relative;
+    left: 9px;
+    top: 2px;
+
+}
+
+p{
+ font-family: Radio Canada;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #D7D0D0;
+margin-bottom: 20px;
+
+}
+
+.content_btn button{
+    width: 180px;
+    height: 56px;
+    top: 50px;
+    left: -562px;
+    border-radius: 4px;
+    font-family: Radio Canada;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #FFA500;
+    color: #fff;
+    margin:3px;
+   
+
+}
+#free{
+    background-color:#4D4848;
+    border: 3px solid  #FFA500 ;
+}
+#get{
+    background-color: #FFA500;
+    border: 3px solid;
+}
+
+
+  /* box icon social media */
+.Box_icon{
+    border-top: 60px solid #FFA500;
+    border-right: 70px solid transparent;
+    width: 340px;
+    height: 70px;
+    margin-top: 280px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.icon_box{
+    width: 30px;
+    position: absolute;
+    bottom: 25px;
+    cursor: pointer;
+    
+}
+.fb{
+    margin-left: 5px;
+}
+
+.big_box{
+    width: 100%;
+    height: 750px;
+    background-color: #f0cc9f;
+    margin-top: -47px;
+}
+
+.box_content p{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Ubuntu;
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    position: relative;
+
+}
+.hr{
+    width: 520px;
+    margin-left: 390px;
+    margin-top: -25px;
+    border: 1px solid black;
+}
+
+.fitness_plancontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    position: relative;
+    
+}
+
+.fitness_plan4{
+    position: absolute;
+    top: 325px;
+    left: 250px;
+
+
+   
+}
+
+.fitness_plan1{
+    position: absolute;
+    left: 250px;
+    top: 40px;
+
+
+   
+}
+
+.fitness_plan2{
+    position: absolute;
+    left: 575px;
+    top: 40px;
+
+   
+}
+
+.fitness_plan3{
+    position: absolute;
+    top: 40px;
+    right: 240px;
+
+
+
+   
+}
+
+.fitness_plan5{
+    position: absolute;
+    top: 325px;
+    left: 575px;
+
+
+}
+
+.fitness_plan6{
+    position: absolute;
+    top: 325px;
+    right: 240px;
+
+
+}
+
+.fitness_plan1 p{
+   color: black;
+   font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: -40px;
+
+}
+.fitness_plan2 p{
+    color: black;
+    font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: -40px;
+
+ }
+ .fitness_plan3 p{
+    color: black;
+    font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: -20px;
+ }
+ .fitness_plan4 p {
+    color: black;
+    font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: -40px;
+   
+   
+ }
+ .fitness_plan5 p{
+    color: black;
+    font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: -30px;
+ }
+ .fitness_plan6 p{
+    color: black;
+    font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: -20px;
+ }
+
+ .hr1{
+  width: 1200px;
+  margin-left: 50px;
+  border:  3px solid hsl(39, 100%, 50%);
+  position: relative;
+  bottom: -350px;
+    
+
+ }
+ .hr2{
+   
+    height: 530px;
+    margin-left: 500px;
+    border:  3px solid hsl(39, 100%, 50%);
+    position: absolute;
+    bottom: -730px;
+
+    
+ }
+ .hr3{
+    height: 530px;
+    margin-left: 820px;
+    border:  3px solid hsl(39, 100%, 50%);
+    position: absolute;
+    bottom: -730px;
+    
+ }
+ 
+
+ .subscriptionplan{
+    position: relative;
+
+ }
+
+ .subscription_image{
+    width: 100%;
+ }
+
+ .subscription_content{
+    font-family: Ubuntu;
+font-size: 49px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFA500;
+position: absolute;
+top: 30px;
+left: 520px;
+ }
+
+
+ .subscription_price{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 200px;
+    z-index: 1;
+    display: flex;
+    gap: 100px;
+    
+}
+
+ .Basic{
+background-color:#1E1D1DDB;
+width: 250px;
+height: 350px;
+border-radius: 6px;
+text-align: center;
+padding-top: 50px;
+line-height: 50px;
+font-size: 20px;
+}
+
+.Basic h1{
+    color: #FFA500;
+}
+
+
+.Intermediate{
+    background-color:#1E1D1DDB;
+    width: 250px;
+    height: 350px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.Intermediate h1{
+    color: #FFA500;
+}
+
+.Advance{
+    background-color:#1E1D1DDB;
+    width: 250px;
+    height: 350px;
+    border-radius: 6px; 
+    text-align: center;
+    padding-top: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.Advance{
+    color: #FFA500;
+}
+
+.streaming{
+    text-align: center;
+}
+
+.btn_price{
+    border: 4px solid #FFA500;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #524D4D;
+}
+/* media queries */
+
+
+.fitclub{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: #ecb144;
+}
+
+.fitclubs_img{
+    width: 100%;
+}
+
+.fitness_avaibility{
+    width: 800px;
+    height:220px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 255px;
+    position: absolute;
+    border-radius: 6px;
+    top:405%;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.managment_content{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+}
+
+.trainer{
+    text-align: center;
+}
+.trainer h2{
+    color: black;
+}
+
+.managment{
+    text-align: center;
+}
+.managment h2{
+    color: black;
+}
+
+.session{
+    text-align: center;
+}
+.session h2{
+    color: black;
+}
+
+.sucessStory{
+    background-color: #000;
+    height: 740px;
+    width: 100%;
+}
+
+.sucessStory_content{
+    color: #FFA500;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.successimg{
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 100%;
+    
+}
+
+.Success_img1{
+    padding-left: 70px;
+    position: relative;
+    text-align: left;
+  
+
+
+}
+.Success_img1 p{
+    margin-left: -20px;
+}
+.Success_img2 p{
+    margin-left: -10px;
+}
+.Success_img11{
+    height: 250px;
+    width: 250px;
+}
+.Success_img22{
+    height: 250px;
+    width: 250px;
+}
+.Success_img33{
+    height: 250px;
+    width: 250px;
+}
+.Success_img2{
+    margin-right: 50px;
+    text-align: center;
+    position: relative;
+    margin-left: 60px;
+   
+   
+}
+.Success_img3{
+    margin-right: 50px;
+    text-align: center;
+    position: relative;
+   
+}
+.contentworlout{
+    color: #FFA500;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-left: 55px;
+}
+.contentworlout3{
+    color: #FFA500;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+footer{
+    background-color: #070707ED;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+
+.left{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 300px;
+    height: 50px;
+
+}
+.left img{
+    position: absolute;
+    bottom:-110px;
+    left:30px;
+    height: 300px;
+    width: 200px;
+}
+.left_content{
+    color: #FFA500;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.right{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 80px;
+    right: 100px;
+
+}
+
+.center{
+    position: absolute;
+    left: 450px;
+    width:300px;
+    height: 300px;
+    display: flex;
+    gap: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.company h2 {
+    color: #D7D0D0;
+    font-family: Radio Canada;
+font-size: 25px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.contact h2 {
+    color: #D7D0D0;
+    font-family: Radio Canada;
+font-size: 25px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.more h2 {
+    color: #D7D0D0;
+    font-family: Radio Canada;
+font-size: 25px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.company li a{
+    color: #fff;
+    font-size: 20px;
+    font-family: Radio Canada;
+}
+.contact li a{
+    color: #fff;
+    font-size: 20px;
+    font-family: Radio Canada;
+}
+
+.more li a{
+    color: #fff;
+    font-size: 20px;
+    font-family: Radio Canada;
+}
+
+.right p{
+    font-family:Radio Canada ;
+    font-size: 35px;
+    color: #FFA500;
+  
+}
+
+.hr_right{
+    width: 200px;
+    position: absolute;
+    top: 35px;
+    left: -8px;
+    border: 0.5px solid #FFA500;
+}
+.btn_abs{
+    width: 100px;
+    height: 40.8px;
+    border-radius: 4px;
+    position: relative;
+    top: 10px;
+    left: -30px;
+    border: 1px solid;
+    background-color: rgba(141, 131, 131, 1);
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.btn_workout{
+    width: 130px;
+    height: 40.8px;
+    border-radius: 4px;
+    position: relative;
+    top: -30px;
+    left: 85px;
+    border: 1px solid;
+    background-color: rgba(141, 131, 131, 1);
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+.btn_nutritions{
+    width: 130px;
+    height: 40.8px;
+    border-radius: 4px;
+    position: relative;
+    top: -15px;
+    left: -30px;
+    border: 1px solid;
+    background-color: rgba(141, 131, 131, 1);
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #FFA500;
+    color: #fff;
+}
+.btn_abs1{
+    width: 100px;
+    height: 40.8px;
+    border-radius: 4px;
+    position: relative;
+    top: -55px;
+    left: 115px;
+    border: 1px solid;
+    background-color: rgba(141, 131, 131, 1);
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+.btn_box{
+    width: 110px;
+    height: 40.8px;
+    border-radius: 4px;
+    position: relative;
+    top: -35px;
+    left: -30px;
+    border: 1px solid;
+    background-color: rgba(141, 131, 131, 1);
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+.btn_trainer{
+    width: 120px;
+    height: 40.8px;
+    border-radius: 4px;
+    position: relative;
+    top: -75px;
+    left: 100px;
+    border: 1px solid;
+    background-color: rgba(141, 131, 131, 1);
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #FFA500;
+    color: #fff;
+}
+.btn_facility{
+    width: 120px;
+    height: 40.8px;
+    border-radius: 4px;
+    position: relative;
+    top: -55px;
+    left: 40px;
+    border: 1px solid;
+    background-color: rgba(141, 131, 131, 1);
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #FFA500;
+    color: #fff;
+}
+.term{
+    width: 500px;
+    height: 30px;
+    color: #fff;
+    text-align:left;
+    position: absolute;
+    left: 40px;
+}
+
+.sub_footer{
+    width: 100%;
+    height: 50px;
+    background-color: #FFA500;
+}
+.copy_right{
+    text-align: center;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 10px;
+    color: #000;
+}
+
+/* popupform */
+
+.login-pop {
+    width: 500px;
+    height: 600px;
+    padding: 30px 20px;
+    background-color:#f0cc9f;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 2s;
+    z-index: 4;
+}
+
+.showlogin {
+    top: 50%;
+    opacity: 1;
+    z-index: 4;
+}
+
+.login-pop input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.login-pop span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+ .names{
+    color: black;
+    font-weight: bolder;
+ }
+ .joining-plan , .paymode{
+    display: flex;
+    justify-content: space-between;
+ }
+ .yearly,.cash{
+    display: flex;
+    gap:20px;
+ }
+ .yearly label,.cash label,.monthly label,.online label,.required label,.not_required label{
+    background-color: white;
+    border-radius: 15%;
+ }
+ .monthly ,.online{
+    display: flex;
+    gap: 20px;
+ }
+ input [type="radio"]{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+ }
+ .yearly label,.monthly label,.cash label ,.online label{
+    padding:7px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+ }
+ .required,.not_required{
+    display: flex;
+    
+    align-items:center;
+    
+    /* background-color: red; */
+ }
+ 
+ 
+ .required label,.not_required label{
+    position: absolute;
+    margin-left: 40px;
+    padding: 7px;
+    color: black;
+    font-size: 20px;
+    font-size: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ .trainingbtn
+{
+    margin-left: -210px; 
+    margin-top: 5px;
+} 
+.conditioncheck{
+    display: flex;
+}
+.acceptcondition{
+    display: flex;
+    margin-left: -62px;
+    
+}
+.acceptcondition label{
+    color: black;
+    margin-left: -50px;
+}
+.submitbtn {
+    /* background-color: red; */
+    width: 50%;
+   
+}
+.submitbtn button{
+    position: relative;
+    top:30%;
+    left:30%;
+    padding: 10px;
+    height: 45px;
+    width: 130px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
